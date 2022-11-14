@@ -21,12 +21,12 @@ rgba(255, 255, 255, 0.6); */
 
 /* Глобальні */
 body {
+  font-family: 'roboto', sans-serif;
   background-color: var(--footer-logo-color);
   color: var(--main-text-color);
-  font-family: roboto, sans-serif;
 }
 
-.section a {
+.link {
   text-decoration: none;
 }
 
@@ -34,33 +34,33 @@ body {
   list-style: none;
 }
 
-/* Header stylization */
+/* 1. Header stylization */
 
-.logo {
+.header-logo {
   color: var(--logo-color);
   font-family: raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
 }
 
-/* site-nav */
-.site-nav .link {
+/* 1.1 site-nav */
+.header-nav .link {
   color: var(--main-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
 
-.site-nav .link:focus,
-.site-nav .link:hover {
+.header-link:focus,
+.header-link:hover {
   color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.header-nav .link.current {
   color: #2196f3;
 }
 
-/* contacts */
+/* 1.2 contacts */
 .mail,
 .phone {
   color: var(--secondary-color);
@@ -76,7 +76,7 @@ body {
   color: var(--accent-color);
 }
 
-/* Hero */
+/* 2. Hero */
 .hero {
   background-color: var(--hero-footer-background);
   color: var(--footer-logo-color);
@@ -84,7 +84,7 @@ body {
   line-height: 1.36;
 }
 
-/* Button for first page*/
+/* 2.1 Button for first page*/
 
 .button {
   font-family: inherit;
@@ -102,9 +102,11 @@ body {
   background-color: var(--footer-logo-color);
 }
 
+/* 3. Work */
+
 /* колір для тексту у секціях і шрифти*/
 
-.advantages .title-del {
+.title-del {
   color: rgba(0, 0, 0, 0.2);
 }
 
@@ -113,7 +115,7 @@ body {
   line-height: 1.14;
 }
 
-.section .section-text {
+.list .section-text {
   color: var(--secondary-color);
   font-size: 14px;
   line-height: 1.71;
@@ -125,7 +127,7 @@ body {
   line-height: 1.17;
 }
 
-/* team */
+/* 4. Team */
 .team {
   background-color: #f5f4fa;
 }
@@ -134,23 +136,27 @@ body {
   background-color: var(--footer-logo-color);
 }
 
-.team-list .section-title {
+.name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
 
-.team-list .section-text {
+.position {
   font-size: 16px;
   line-height: 1.19;
+  color: var(--secondary-color);
 }
 
-/* Footer */
+/* 5. Footer */
 
-.footer {
+.footer,
+.footer-address,
+.footer-contact {
   background-color: var(--hero-footer-background);
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 
 .footer-logo {
