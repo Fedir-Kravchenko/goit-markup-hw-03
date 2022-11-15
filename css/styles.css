@@ -86,6 +86,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
+  text-transform: uppercase;
   color: var(--footer-logo-color);
   background-color: var(--hero-footer-background);
 }
@@ -133,6 +134,8 @@ body {
 .team > .section-title {
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* 4. Team */
@@ -191,11 +194,6 @@ body {
 
 /* portfolio */
 /* buttons for portfolio */
-
-.section.list-button .title-del,
-.section.list-work .title-del {
-  color: rgba(0, 0, 0, 0.2);
-}
 
 .btn {
   font-family: inherit;
