@@ -35,6 +35,7 @@ body {
 }
 
 /* 1. Header stylization */
+/* 1.1 site-nav */
 
 .header-logo {
   color: var(--logo-color);
@@ -43,12 +44,13 @@ body {
   line-height: 1.2;
 }
 
-/* 1.1 site-nav */
-.header-nav .link {
-  color: var(--main-text-color);
+.header-list .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--main-text-color);
 }
 
 .header-link:focus,
@@ -63,10 +65,12 @@ body {
 /* 1.2 contacts */
 .mail,
 .phone {
-  color: var(--secondary-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-color);
 }
 
 .contacts .mail:hover,
@@ -78,10 +82,12 @@ body {
 
 /* 2. Hero */
 .hero {
-  background-color: var(--hero-footer-background);
-  color: var(--footer-logo-color);
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--footer-logo-color);
+  background-color: var(--hero-footer-background);
 }
 
 /* 2.1 Button for first page*/
@@ -89,11 +95,12 @@ body {
 .button {
   font-family: inherit;
   cursor: pointer;
-  color: var(--footer-logo-color);
-  background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+
+  color: var(--footer-logo-color);
+  background-color: var(--accent-color);
 }
 
 .button:hover,
@@ -102,8 +109,9 @@ body {
   background-color: var(--footer-logo-color);
 }
 
-/* 3. Work */
+/* 3. Advantages */
 
+/* 4. Work */
 /* колір для тексту у секціях і шрифти*/
 
 .title-del {
