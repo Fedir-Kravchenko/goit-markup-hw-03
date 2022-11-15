@@ -116,7 +116,14 @@ body {
 /* колір для тексту у секціях і шрифти*/
 
 .title-del {
-  color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .list .section-title {
