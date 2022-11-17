@@ -49,9 +49,10 @@ body {
 }
 
 .container {
-  width: 1200;
   padding: 0 15px;
   margin: 0 auto;
+
+  width: 1200;
 }
 
 .link {
@@ -86,19 +87,24 @@ body {
   display: inline-block;
   padding: 24px 0 25px;
   margin-right: 93px;
+
   color: var(--logo-color);
+
   font-family: raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
 }
 
 .header-list .link {
+  display: block;
+  padding: 32px 0 32px;
+
+  color: var(--main-text-color);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
-  color: var(--main-text-color);
 }
 
 .header-link:focus,
@@ -135,12 +141,15 @@ body {
 
 .mail,
 .phone {
+  display: block;
+  padding: 32px 0 32px;
+
+  color: var(--secondary-color);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
-  color: var(--secondary-color);
 }
 
 .contacts .mail:hover,
@@ -154,13 +163,15 @@ body {
 .hero {
   display: inline-block;
   padding: 200px 0;
+
+  color: var(--footer-logo-color);
+  background-color: var(--hero-footer-background);
+
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
-  color: var(--footer-logo-color);
-  background-color: var(--hero-footer-background);
 }
 
 .hero-title {
@@ -170,14 +181,14 @@ body {
 /* 2.1 Button for first page*/
 
 .button {
+  color: var(--footer-logo-color);
+  background-color: var(--accent-color);
+
   font-family: inherit;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-
-  color: var(--footer-logo-color);
-  background-color: var(--accent-color);
 }
 
 .button:hover,
@@ -233,8 +244,9 @@ body {
 
 /* 4. Team */
 .team {
-  background-color: #f5f4fa;
   padding: 94px 0;
+
+  background-color: #f5f4fa;
 }
 
 .team-list .carts {
@@ -275,7 +287,9 @@ body {
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
+
   color: var(--footer-logo-color);
+
   font-family: raleway, sans-serif;
   font-size: 26px;
   line-height: 31px;
