@@ -48,84 +48,114 @@
     </header>
     <main>
       <section class="section list-button">
-        <!--Заголовок видалимо в CSS-->
-        <h1 class="visually-hidden">Вибір напрямків робіт</h1>
-        <ul class="buttons list">
-          <li><button type="button" class="btn current">Усі</button></li>
-          <li><button type="button" class="btn">Веб-сайти</button></li>
-          <li><button type="button" class="btn">Додадки</button></li>
-          <li><button type="button" class="btn">Дизайн</button></li>
-          <li><button type="button" class="btn">Маркетинг</button></li>
-        </ul>
+        <div class="container">
+          <!--Заголовок видалимо в CSS-->
+          <h1 class="visually-hidden">Вибір напрямків робіт</h1>
+          <ul class="buttons list">
+            <li class="item-btn"><button type="button" class="btn current">Усі</button></li>
+            <li class="item-btn"><button type="button" class="btn">Веб-сайти</button></li>
+            <li class="item-btn"><button type="button" class="btn">Додадки</button></li>
+            <li class="item-btn"><button type="button" class="btn">Дизайн</button></li>
+            <li class="item-btn"><button type="button" class="btn">Маркетинг</button></li>
+          </ul>
+        </div>
       </section>
-      <section class="section list-work">
-        <!--Заголовок видалимо в CSS-->
-        <h2 class="visually-hidden">Список робіт</h2>
-        <ul class="list">
-          <li>
-            <a href="" class="link"
-              ><img src="./imeges/img1.jpg" alt="Ноутбук з картаками" width="370" height="294"
-            /></a>
-            <h3 class="section-title">Технокряк</h3>
-            <p class="section-text">Веб-сайт</p>
-          </li>
-          <li>
-            <a href="" class="link"
-              ><img src="./imeges/img2.jpg" alt="Баскетболісти в стрибку" width="370" height="294"
-            /></a>
-            <h3 class="section-title">Постер New Orlean vs Golden Star</h3>
-            <p class="section-text">Дизайн</p>
-          </li>
-          <li>
-            <a href="" class="link"
-              ><img src="./imeges/img3.jpg" alt="Логотип магазину seafood" width="370" height="294"
-            /></a>
-            <h3 class="section-title">Ресторан Seafood</h3>
-            <p class="section-text">Додаток</p>
-          </li>
-          <li>
-            <a href="" class="link"
-              ><img src="./imeges/img4.jpg" alt="Навушники" width="370" height="294"
-            /></a>
-            <h3 class="section-title">Проєкт Prime</h3>
-            <p class="section-text">Маркетинг</p>
-          </li>
-          <li>
-            <a href="" class="link"
-              ><img src="./imeges/img5.jpg" alt="Дві коробки" width="370" height="294"
-            /></a>
-            <h3 class="section-title">Проєкт Boxes</h3>
-            <p class="section-text">Додаток</p>
-          </li>
-          <li>
-            <a href="" class="link"
-              ><img src="./imeges/img6.jpg" alt="Монітор епл" width="370" height="294"
-            /></a>
-            <h3 class="section-title">Inspiration has no Borders</h3>
-            <p class="section-text">Веб-сайт</p>
-          </li>
-          <li>
-            <a href="" class="link"
-              ><img src="./imeges/img7.jpg" alt="Журнал" width="370" height="294"
-            /></a>
-            <h3 class="section-title">Видання Limited Edition</h3>
-            <p class="section-text">Дизайн</p>
-          </li>
-          <li>
-            <a href="" class="link"
-              ><img src="./imeges/img8.jpg" alt="Бірка" width="370" height="294"
-            /></a>
-            <h3 class="section-title">Проєкт LAB</h3>
-            <p class="section-text">Маркетинг</p>
-          </li>
-          <li>
-            <a href="" class="link"
-              ><img src="./imeges/img9.jpg" alt="Руки на клавіатурі" width="370" height="294"
-            /></a>
-            <h3 class="section-title">Growing Business</h3>
-            <p class="section-text">Додаток</p>
-          </li>
-        </ul>
+      <section class="section examples">
+        <div class="container">
+          <!--Заголовок видалимо в CSS-->
+          <h2 class="visually-hidden">Список робіт</h2>
+          <ul class="list list-examples">
+            <li class="item-work">
+              <a href="" class="link"
+                ><img src="./imeges/img1.jpg" alt="Ноутбук з картаками" width="370" height="294"
+              /></a>
+              <div class="mini-container">
+                <h3 class="section-title">Технокряк</h3>
+                <p class="section-text">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="item-work">
+              <a href="" class="link"
+                ><img
+                  src="./imeges/img2.jpg"
+                  alt="Баскетболісти в стрибку"
+                  width="370"
+                  height="294"
+              /></a>
+              <div class="mini-container">
+                <h3 class="section-title">Постер New Orlean vs Golden Star</h3>
+                <p class="section-text">Дизайн</p>
+              </div>
+            </li>
+            <li class="item-work">
+              <a href="" class="link"
+                ><img
+                  src="./imeges/img3.jpg"
+                  alt="Логотип магазину seafood"
+                  width="370"
+                  height="294"
+              /></a>
+              <div class="mini-container">
+                <h3 class="section-title">Ресторан Seafood</h3>
+                <p class="section-text">Додаток</p>
+              </div>
+            </li>
+            <li class="item-work">
+              <a href="" class="link"
+                ><img src="./imeges/img4.jpg" alt="Навушники" width="370" height="294"
+              /></a>
+              <div class="mini-container">
+                <h3 class="section-title">Проєкт Prime</h3>
+                <p class="section-text">Маркетинг</p>
+              </div>
+            </li>
+            <li class="item-work">
+              <a href="" class="link"
+                ><img src="./imeges/img5.jpg" alt="Дві коробки" width="370" height="294"
+              /></a>
+              <div class="mini-container">
+                <h3 class="section-title">Проєкт Boxes</h3>
+                <p class="section-text">Додаток</p>
+              </div>
+            </li>
+            <li class="item-work">
+              <a href="" class="link"
+                ><img src="./imeges/img6.jpg" alt="Монітор епл" width="370" height="294"
+              /></a>
+              <div class="mini-container">
+                <h3 class="section-title">Inspiration has no Borders</h3>
+                <p class="section-text">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="item-work">
+              <a href="" class="link"
+                ><img src="./imeges/img7.jpg" alt="Журнал" width="370" height="294"
+              /></a>
+              <div class="mini-container">
+                <h3 class="section-title">Видання Limited Edition</h3>
+                <p class="section-text">Дизайн</p>
+              </div>
+            </li>
+            <li class="item-work">
+              <a href="" class="link"
+                ><img src="./imeges/img8.jpg" alt="Бірка" width="370" height="294"
+              /></a>
+              <div class="mini-container">
+                <h3 class="section-title">Проєкт LAB</h3>
+                <p class="section-text">Маркетинг</p>
+              </div>
+            </li>
+            <li class="item-work">
+              <a href="" class="link"
+                ><img src="./imeges/img9.jpg" alt="Руки на клавіатурі" width="370" height="294"
+              /></a>
+              <div class="mini-container">
+                <h3 class="section-title">Growing Business</h3>
+                <p class="section-text">Додаток</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="section footer">
