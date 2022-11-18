@@ -193,7 +193,6 @@ body {
   border: 0;
 
   width: 216px;
-  height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -309,6 +308,7 @@ body {
 
 .team-container {
   padding: 30px 0;
+  border: 1px solid #eeeeee;
 }
 
 /* 5. Footer */
