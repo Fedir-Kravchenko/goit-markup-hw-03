@@ -182,6 +182,7 @@ body {
 .button {
   color: var(--footer-logo-color);
   background-color: var(--accent-color);
+  padding: 10px 24px;
 
   font-family: inherit;
   cursor: pointer;
@@ -366,6 +367,7 @@ body {
 
 .btn {
   display: block;
+  padding: 6px 22px;
   font-family: inherit;
   background-color: #f5f4fa;
   cursor: pointer;
