@@ -90,7 +90,7 @@ body {
 
   color: var(--logo-color);
 
-  font-family: raleway, sans-serif;
+  font-family: 'raleway', sans-serif;
   font-size: 26px;
   line-height: 1.2;
 }
@@ -164,18 +164,18 @@ body {
   display: block;
   padding: 200px 0;
 
-  color: var(--footer-logo-color);
   background-color: var(--hero-footer-background);
-
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
 }
 
 .hero-title {
   margin-bottom: 30px;
+  color: var(--footer-logo-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
 }
 
 /* 2.1 Button for first page*/
